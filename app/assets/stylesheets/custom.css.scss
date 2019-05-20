@@ -32,8 +32,10 @@ $navbar-default-bg: #000;
   font-weight: bold;
 }
 .btn-xlarge {
-  font-size: 1.7em;
-  background-color: #000;
+  font-size: 1.6em;
+}
+.btn-xlarge:hover {
+  border: 1px solid #eaeaea;
 }
 footer {
   margin-top: 45px;
@@ -65,6 +67,9 @@ footer ul li {
 .article-title  {
   font-weight: bold;
   font-style: 1.5em;
+}
+.listing {
+  list-style: none;
 }
 .article-body  {
   border-top: 1px solid #eaeaea;
